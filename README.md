@@ -2,7 +2,7 @@
 
 A personal macOS music visualizer in the spirit of MilkDrop, built around one goal: visuals that land exactly on the beat, even through AirPods.
 
-**Status:** specification stage, no code yet · **License:** MIT · **Русская версия:** [README.ru.md](README.ru.md)
+**Status:** specification stage, no code yet · **License:** MIT (the specification now, the code once it exists) · **Русская версия:** [README.ru.md](README.ru.md)
 
 ## The idea
 

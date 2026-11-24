@@ -9,13 +9,13 @@ build/
 .build/
 .swiftpm/
 
-# Подпись: сертификаты и профили никогда не в репозиторий
+# Signing: certificates and profiles never go into the repository
 *.p12
 *.cer
 *.mobileprovision
 *.provisionprofile
 
-# Треки для beatbench — личная музыка, не хранится в git
+# Tracks for beatbench: personal music, never stored in git
 *.wav
 *.mp3
 *.flac
