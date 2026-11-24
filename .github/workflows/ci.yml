@@ -6,9 +6,10 @@ on:
   pull_request:
 
 jobs:
-  # Private repos on the free plan get no GitHub secret scanning; gitleaks
-  # scans the whole history instead. Add build and test jobs once there is
-  # code (Swift: `xcodebuild test` on a macos runner).
+  # Public repos get GitHub secret scanning, but a push protection miss or an
+  # old commit still slips through; gitleaks scans the whole history on every
+  # run. Add build and test jobs once there is code (Swift: `xcodebuild test`
+  # on a macos runner).
   secrets:
     name: secrets
     # The action lists the PR's commits through the API; the default token
