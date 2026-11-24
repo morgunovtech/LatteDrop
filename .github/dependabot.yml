@@ -1,5 +1,7 @@
 # Monthly PRs for the Actions. Add the Swift package ecosystem
-# (`swift`) once Package.swift exists. Nothing merges automatically.
+# (`swift`) once Package.swift exists. Minor and patch bumps merge on
+# their own once the required `secrets` check passes
+# (workflows/dependabot-automerge.yml); majors wait for a human.
 version: 2
 updates:
   - package-ecosystem: github-actions
