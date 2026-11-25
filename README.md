@@ -2,7 +2,7 @@
 
 A personal macOS music visualizer in the spirit of MilkDrop, built around one goal: visuals that land exactly on the beat, even through AirPods.
 
-**Status:** specification stage, no code yet · **License:** MIT (the specification now, the code once it exists) · **Русская версия:** [README.ru.md](README.ru.md)
+**Status:** specification stage (v2.0, 30 August 2026), no code yet · **License:** MIT (the specification now, the code once it exists) · **Русская версия:** [README.ru.md](README.ru.md)
 
 ## The idea
 
@@ -10,9 +10,9 @@ A personal macOS music visualizer in the spirit of MilkDrop, built around one go
 - **Beat-accurate:** it predicts the next beat instead of reacting late, and compensates the output latency of the current device (built-in speakers, wired, AirPods).
 - Handles both ends of music: strict 4/4 electronic and free-rhythm ambient, classical or jazz, and decides on its own which one is playing.
 - Three render subsystems cover the looks: a classic MilkDrop-style feedback raster, a vector/oscilloscope renderer, and compute particles.
-- Presets are JSON files with hot reload.
+- Presets are folders of `preset.json` plus Metal shaders, hot-reloaded.
 
-Scope is deliberately narrow: macOS 26 on Apple Silicon only, a normal window, no distribution, no `.milk` import, no ML.
+Scope is deliberately narrow: macOS 26 on Apple Silicon only, a normal window, no `.milk` import, no ML. The app itself is for personal use and is not distributed; the repository is open all the same.
 
 ## Plan
 
